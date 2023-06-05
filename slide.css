@@ -57,3 +57,9 @@ input{
     height: 100%;
 }
 
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
